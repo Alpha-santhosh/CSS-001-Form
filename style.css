@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 375px;
+    /* background: yellow; */
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+p{
+    font-weight: bold;
+    color:#E5A839 ;
+    margin-bottom: 10px;
+}
+
+.in-1,.in-2,.in-3{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid grey;
+    padding-right: 8px;
+}
+.user input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.user .fa-solid{
+    width: 30px;
+    height: 25px;
+    border-right: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+/* date of birth */
+.section-02{
+    display: flex;
+    justify-content: space-between;
+}
+.dob-formate{
+    display: flex;
+}
+.date{
+    border: 1px solid grey;
+    font-size: 12px;
+    color: grey;
+    width: 40px;
+    padding: 5px;
+    margin-right: 4px;
+    border-radius: 1px;
+}
+.date-3{
+    width: 45px;
+}
+.btns{
+    display: flex;
+}
+.box{
+    width: 65px;
+    padding: 5px;
+    border: 1px solid grey;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: grey;
+}
+.male:hover{
+    background: #E5A839;
+    color: white;
+}
+/* payment */
+.pay-box{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card{
+    width: 187px;
+    border: 1px solid grey;
+    padding: 8px 5px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-01{
+    background: #E5A839;
+    color: aliceblue;
+}
+.in-1 input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.fa-credit-card{
+    width: 30px;
+    height: 25px;
+    border-right: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.card-num-1{
+    display: flex;
+    justify-content: space-between;
+}
+.cvc{
+    width: 100;
+    display: flex;
+    height: max-content;
+    border: 1px solid grey;
+}
+.cvc input{
+    width: 130px;
+    border: none;
+    outline: none;
+}
+.fa-user{
+    width: 30px;
+    height: 25px;
+    border-right: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.year{
+    display: flex;
+    padding: 5px 0px 5px 5px;
+    font-size: 14px;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: 14px;
+}
+.fa-chevron-down{
+    font-size: 10px;
+    text-align: center;
+    padding: 0px 5px;
+}
+/* foot */
+.foot-h1{
+    font-weight: bold;
+    color:#E5A839 ;
+    margin-bottom: 10px;
+}
+.foot{
+    display: flex;
+}
+.foot input{
+    margin-right: 10px;
+}
+.foot-para{
+    font-size: 8px;
+    color: rgb(117, 117, 117);
+}
+/* sections */
+.section-01,.section-02,.section-03{
+    margin-bottom: 25px;
+}
